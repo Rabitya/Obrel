@@ -1,0 +1,25 @@
+{
+  "name": "data.blankon.id",
+  "version": "0.0.1",
+  "description": "data.blankon.id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/data-blankon/api"
+  },
+  "keywords": [
+    "data",
+    "blankon"
+  ],
+  "author": "Mohammad Anwari <mdamt@mdamt.net> (http://aksi.mdamt.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/data-blankon/api/issues"
+  },
+  "dependencies": {
+    "hapi": "^8.5.2"
+  }
+}
