@@ -20,6 +20,7 @@
     "url": "https://github.com/data-blankon/api/issues"
   },
   "dependencies": {
-    "hapi": "^8.5.2"
+    "hapi": "^8.5.2",
+    "hapi-swagger": "^0.7.3"
   }
 }
