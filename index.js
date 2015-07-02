@@ -5,12 +5,6 @@ var server = new Hapi.Server();
 server.connection({ port: 3000, labels: ['api'] });
 sources.populate(server);
 
-server.ext("onPreResponse", function(request, reply) {
-  request.response.header("Strict-Transport-Security",
-      "max-age=63072000; includeSubdomains; preload");
-  return reply.continue();
-});
-
 server.register({
     register: require('hapi-swagger'),
     options: {
