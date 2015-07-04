@@ -1,26 +1,29 @@
 {
-  "name": "data.blankon.id",
-  "version": "0.0.3",
-  "description": "data.blankon.id",
+  "name": "obrel",
+  "version": "0.0.1",
+  "description": "obrel application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/data-blankon/api"
+    "url": "https://github.com/Rabitya/Obrel"
   },
   "keywords": [
-    "data",
+    "chat",
+    "obrel",
     "blankon"
   ],
-  "author": "Mohammad Anwari <mdamt@mdamt.net> (http://aksi.mdamt.net/)",
+  "author": [
+    "Mohammad Anwari <mdamt@mdamt.net> (http://aksi.mdamt.net/)",
+    "Rabitya <rabitya@g.pl>"
+  ]
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/data-blankon/api/issues"
+    "url": "https://github.com/Rabitya/Obrel/issues"
   },
   "dependencies": {
-    "hapi": "^8.5.2",
-    "hapi-swagger": "^0.7.3"
+    "hapi": "^8.5.2"
   }
 }
